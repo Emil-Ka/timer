@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background: linear-gradient(112.99deg, #5F94D1 0%, #7FF0FF 100%);
+  font-family: "Press Start 2P", cursive;
+  color: #fff;
+}
+
+.container {
+  max-width: 1040px;
+}
+
+.header__container {
+  margin: 0 auto;
+  padding: 56px 0 0 0;
+}
+
+.logo {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.digitals {
+  display: flex;
+  justify-content: space-between;
+  max-width: 740px;
+}
+
+.digitals__numberbox {
+  width: 120px;
+  height: 120px;
+  background: #4D5DFF;
+  border-radius: 20px;
+  padding: 40px 20px;
+  margin: 0 0 7px 0;
+}
+
+.digitals__name {
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.digitals__number {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.buttons {
+  max-width: 738px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.buttons__item {
+  display: inline-block;
+  width: 302px;
+  height: 79px;
+  border-radius: 44px;
+  background: #1921CF;
+  font-size: 28px;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+}
+.buttons__item--stop {
+  min-width: 331px;
+}
+.buttons__item--reset {
+  margin: 48px auto 0;
+}
+
+.stopwatch__container {
+  margin: 0 auto;
+  padding: 150px 0 0 0;
+}
+
+.stopwatch__digitals {
+  margin: 0 auto 94px;
+}
+
+.stopwatch__buttons {
+  margin: 0 auto;
+}

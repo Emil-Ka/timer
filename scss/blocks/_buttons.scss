@@ -1,0 +1,26 @@
+.buttons {
+   max-width: 738px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.buttons__item {
+   display: inline-block;
+   width: 302px;
+   height: 79px;
+   border-radius: 44px;
+   background: #1921CF;
+   font-size: 28px;
+   line-height: 28px;
+   color: #fff;
+   text-align: center;
+
+   &--stop {
+      min-width: 331px;
+   }
+
+   &--reset {
+      margin: 48px auto 0;
+   }
+}
